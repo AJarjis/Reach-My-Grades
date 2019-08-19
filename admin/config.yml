@@ -6,10 +6,13 @@ media_folder: "assets/images/posts"
 
 collections:
   - name: "posts"
+    layout: post
     label: "Post"
     folder: "_posts"
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Description", name: "body", widget: "text"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Content", name: "body", widget: "text"}
