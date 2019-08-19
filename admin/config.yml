@@ -12,4 +12,4 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Description", name: "body", widget: "string"}
+      - {label: "Description", name: "body", widget: "text"}
