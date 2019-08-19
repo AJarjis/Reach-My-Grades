@@ -5,8 +5,8 @@ backend:
 media_folder: "assets/images/posts"
 
 collections:
-  - name: "blog"
-    label: "post"
+  - name: "posts"
+    label: "Post"
     folder: "_posts"
     create: true
     fields:
