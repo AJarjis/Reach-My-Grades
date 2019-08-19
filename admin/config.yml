@@ -5,11 +5,11 @@ backend:
 media_folder: "assets/images/posts"
 
 collections:
-  name: "blog"
-  label: "post"
-  folder: "_posts"
-  create: true
-  fields:
-    - {label: "Title", name: "title", widget: "string"}
-    - {label: "Image", name: "image", widget: "image"}
-    - {label: "Title", name: "title", widget: "string"}
+  - name: "blog"
+    label: "post"
+    folder: "_posts"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Title", name: "title", widget: "string"}
