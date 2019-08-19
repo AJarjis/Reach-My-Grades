@@ -13,15 +13,10 @@ tiles-count: 3
 featured-image-source:
 
 # Social settings
-500px_url:
 facebook_url:
-github_url:
-gitlab_url:
 googleplus_url:
 instagram_url:
 linkedin_url: https://www.linkedin.com
-pinterest_url:
-slack_url:
 twitter_url: https://twitter.com
 
 # Build settings

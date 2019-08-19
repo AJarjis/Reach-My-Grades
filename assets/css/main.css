@@ -1664,7 +1664,11 @@
 		display: block;
 		font-size: 0.9em;
 		font-weight: 600;
-		margin: 0 0 1em 0;
+		margin: 2em 0 0.5em 0;
+	}
+
+	form > label:first-of-type {
+		margin: 0 0 0.5em 0;
 	}
 
 	input[type="text"],
@@ -3714,7 +3718,7 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0 ;
+		padding: 3em 0 3em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
