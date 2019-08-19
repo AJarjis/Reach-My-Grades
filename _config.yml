@@ -1,7 +1,7 @@
 # Site settings
 title: A-Star Academic Services
 email: youremailaddress@gmail.com
-description: A site for losers.
+description: A site for studying and other stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
