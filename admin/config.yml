@@ -6,6 +6,28 @@ media_folder: "assets/images/"
 
 # TODO: Make every part of this site editable!!!
 collections:
+  - name: 'pages'
+    label: 'Pages'
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: "Social media"
+        name: "social"
+        file: "data/social.yml"
+        fields:
+          - { label: 'Title', name: 'title', widget: "string", default: "Pricing" }
+          - { label: "Description", name: "description", widget: "string", default: "Academic experts at your service." }
+
+
+
+
+
+
+
+
+
+
   # - name: "posts"
   #   label: "Post"
   #   folder: "_posts"
@@ -19,16 +41,3 @@ collections:
   #     - { label: "Main Image", name: "image", widget: "image", default: "../banner.jpg" }
   #     - { label: "Post Description", name: "description", widget: "string" }
   #     - { label: "Content", name: "body", widget: "markdown" }
-    
-    # - name: 'pages'
-    #   label: 'Pages'
-    #   delete: false
-    #   editor:
-    #     preview: false
-    #   files:
-    #     - label: "Pricing Page"
-    #       name: "pricing"
-    #       file: "pricing.md"
-    #       fields:
-    #         - { label: 'Title', name: 'title', widget: "string", default: "Pricing" }
-    #         - { label: "Description", name: "description", widget: "string", default: "Academic experts at your service." }

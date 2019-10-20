@@ -1937,6 +1937,10 @@
 			color: #76ddff;
 		}
 
+		.icon.style4 {
+			color: #55DDE0;
+		}
+
 /* Image */
 
 	.image {
@@ -3724,7 +3728,7 @@
 	}
 
 		#footer .icons {
-			font-size: 1.25em;
+			font-size: 1.45em;
 		}
 
 			#footer .icons a {
@@ -3830,3 +3834,7 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+textarea {
+	resize: vertical;
+}
