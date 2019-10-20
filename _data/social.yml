@@ -1,5 +1,5 @@
 - name: Twitter
-  url: https://twitter.com
+  url: 
   logo: fa-twitter
 
 - name: Google+
@@ -11,7 +11,7 @@
   logo: fa-facebook
 
 - name: Instagram
-  url: 
+  url: https://www.instagram.com
   logo: fa-instagram
 
 - name: LinkedIn
