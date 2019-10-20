@@ -1,8 +1,13 @@
 <head>
 	<title>{{ site.title }}</title>
-	<meta charset="utf-8" />
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<!-- Meta data -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {% feed_meta %}
+	{% seo %}
+	
 	<!--[if lte IE 8]><script src="{{ "/assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
 	<link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | relative_url }}" />
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />

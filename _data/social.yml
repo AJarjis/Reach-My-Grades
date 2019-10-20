@@ -1,0 +1,19 @@
+- name: Twitter
+  url: https://twitter.com
+  logo: fa-twitter
+
+- name: Google+
+  url: 
+  logo: fa-google-plus
+
+- name: Facebook
+  url: 
+  logo: fa-facebook
+
+- name: Instagram
+  url: 
+  logo: fa-instagram
+
+- name: LinkedIn
+  url: https://www.linkedin.com
+  logo: fa-linkedin

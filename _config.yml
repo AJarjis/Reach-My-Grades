@@ -1,23 +1,12 @@
 # Site settings
-title: A-Star Academic Services
-email: youremailaddress@gmail.com
+title: Reach My Grades
+email: contact@reachmygrades.com
 description: A site for studying and other stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-
-# Homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 3
-
-# Misc settings
-featured-image-source:
-
-# Social settings
-facebook_url:
-googleplus_url:
-instagram_url:
-linkedin_url: https://www.linkedin.com
-twitter_url: https://twitter.com
+url: "www.reachmygrades.com" # the base hostname & protocol for your site
+author: Alwin
+lang: en
+timezone: GB
 
 # Build settings
 markdown: kramdown
