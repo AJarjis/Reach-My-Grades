@@ -3,7 +3,7 @@ title: Reach My Grades
 email: contact@reachmygrades.com
 description: A site for studying and other stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.reachmygrades.com" # the base hostname & protocol for your site
+url: "reachmygrades.com" # the base hostname & protocol for your site
 author: Alwin
 lang: en
 timezone: GB
