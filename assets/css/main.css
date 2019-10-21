@@ -2048,7 +2048,15 @@
 					@media screen and (max-width: 736px) {
 
 						ul.icons.major li {
-							padding: 0 1em !important;
+							padding: 2em 4em !important;
+						}
+
+					}
+
+					@media screen and (max-width: 390px) {
+
+						ul.icons.major li {
+							padding: 2em 3em !important;
 						}
 
 					}
@@ -3837,6 +3845,7 @@
 
 textarea {
 	resize: vertical;
+	min-height: 100px;
 }
 
 @media screen and (max-width: 768px) {
