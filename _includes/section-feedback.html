@@ -1,0 +1,25 @@
+<section id="two" class="wrapper style2 special">
+  <div class="inner">
+    <header class="major">
+      <h2>Clients Feedback</h2>
+      <p>...every feedback helps...</p>
+    </header>
+    <div class="row">
+	  {% for feedback in site.data.feedback %}
+		<div class="col-lg-6 col-md-6 col-sm-6">
+			<h3>"{{ feedback.title }}"</h3>
+			<blockquote style="border: none; font-size: 90%;">
+			<p>
+				<i class="fas fa-quote-left pr-2"></i>
+				{{ feedback.review }}
+				<i class="fas fa-quote-right pl-2"></i>
+			</p>
+			<footer class="blockquote-footer">
+				- <cite title="{{feedback.author}}">{{feedback.author}}</cite>
+			</footer>
+			</blockquote>
+		</div>
+	  {% endfor %}
+    </div>
+  </div>
+</section>
