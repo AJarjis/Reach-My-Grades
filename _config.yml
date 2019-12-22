@@ -1,7 +1,7 @@
 # Site settings
 title: Reach My Grades
 email: contact@reachmygrades.com
-description: A site for studying and other stuff.
+description: A site for studying.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "reachmygrades.com" # the base hostname & protocol for your site
 author: Alwin Puthenpurakal
