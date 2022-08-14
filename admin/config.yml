@@ -4,7 +4,6 @@ backend:
 
 media_folder: "assets/images/"
 
-# TODO: Make every part of this site editable!!!
 collections:
   - name: 'pages'
     label: 'Pages'
